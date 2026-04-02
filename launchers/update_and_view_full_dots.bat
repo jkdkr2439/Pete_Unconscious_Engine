@@ -1,6 +1,0 @@
-@echo off
-cd ..
-echo [*] Dang dem toan bo so luong Node va trai ra vu tru...
-python render_2d_dots.py
-echo [*] Xong! Moi bat trinh duyet...
-start render_exports\map_2d_full_dots.html

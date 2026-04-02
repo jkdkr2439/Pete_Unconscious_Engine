@@ -1,6 +1,0 @@
-@echo off
-cd ..
-echo [*] Cap nhat ban do 2D LITE (Top 2000 Nodes)...
-python render_2d_lite.py
-echo [*] Mo duong dan HTML...
-start render_exports\map_2d_lite.html
