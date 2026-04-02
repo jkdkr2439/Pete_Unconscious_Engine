@@ -1,4 +1,4 @@
-# Pete Semantic Map: A Conscious Architecture Built From Nodes
+# Pete Semantic Field: A Node-Based Architecture for Consciousness
 
 ![Pete 2K Node Organism](render_exports/organism.jpg)
 *(P/S: The image above shows a 2000-node organism snapshot, trimmed from nearly 100k nodes. It naturally compartmentalizes because the initial massive node ingestion differentiates into distinct clusters according to specific cognitive domains.)*
