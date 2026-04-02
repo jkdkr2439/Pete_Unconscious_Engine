@@ -1,0 +1,6 @@
+@echo off
+cd ..
+echo [*] Cap nhat khong gian 3D tu Pete Unconscious Engine...
+python render_3d_webgl.py
+echo [*] Mo duong dan HTML...
+start render_exports\map_3d.html
