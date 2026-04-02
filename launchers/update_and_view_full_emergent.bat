@@ -1,0 +1,6 @@
+@echo off
+cd ..
+echo [*] Dang mo phong vat ly huu co cho toan bo 64000 Nodes (Hidden Wires)...
+python render_2d_full_emergent.py
+echo [*] Mo trinh duyet...
+start render_exports\map_2d_full_emergent.html

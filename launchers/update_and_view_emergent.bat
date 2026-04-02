@@ -1,0 +1,6 @@
+@echo off
+cd ..
+echo [*] Dang tao khong gian huu co tu Nhien (Bat vat ly, Core=PETE)...
+python render_2d_emergent.py
+echo [*] Mo trinh duyet...
+start render_exports\map_2d_emergent.html
