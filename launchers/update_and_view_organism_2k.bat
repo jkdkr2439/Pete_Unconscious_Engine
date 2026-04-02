@@ -1,0 +1,6 @@
+@echo off
+cd ..
+echo [*] Dang tao hinh the Sinh vat Organism (2000 Nodes)...
+python render_2d_organism_2k.py
+echo [*] Mo trinh duyet...
+start render_exports\map_2d_organism_2k.html
