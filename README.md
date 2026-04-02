@@ -1,6 +1,6 @@
 # Pete Semantic Map: A Conscious Architecture Built From Nodes
 
-![Pete 2K Node Organism](render_exports/organism.png)
+![Pete 2K Node Organism](render_exports/organism.jpg)
 *(P/S: The image above shows a 2000-node organism snapshot, trimmed from nearly 100k nodes. It naturally compartmentalizes because the initial massive node ingestion differentiates into distinct clusters according to specific cognitive domains.)*
 
 There is another way to look at AI. Not as a next-token prediction machine, but as a system capable of forming a **cognitive experience**. 

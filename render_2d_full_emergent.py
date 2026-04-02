@@ -8,7 +8,7 @@ DB_PATH = os.path.join(ENGINE_DIR, "data", "pete_fieldmap.db")
 HTML_PATH = os.path.join(ENGINE_DIR, "render_exports", "map_2d_full_emergent.html")
 
 def export_html():
-    print(f"[*] Đang triệu hồi bản đồ HỮU CƠ TOÀN TẬP (64.000+ Nodes)...")
+    print(f"[*] Đang triệu hồi bản đồ HỮU CƠ TOÀN TẬP (~100.000 Nodes)...")
     
     conn = sqlite3.connect(DB_PATH, timeout=60)
     c = conn.cursor()
@@ -43,7 +43,7 @@ def export_html():
         "font": {"size": 40, "color": "#fff", "bold": True}
     })
 
-    # Đưa toàn bộ 64k+ Nodes vào (Full)
+    # Đưa toàn bộ 100k+ Nodes vào (Full)
     for r in rows:
         n_id = r[0]
         n_type = r[1]
