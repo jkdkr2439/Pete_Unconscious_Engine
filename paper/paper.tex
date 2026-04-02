@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{caption}
+
+\title{Being as Becoming: \\ An AI-Inspired Epistemology of Filters, Frames, and Knowledge}
+\author{Kevin T.N}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper develops an AI-inspired epistemological perspective on how knowledge becomes possible. Rather than treating reality as a fixed inventory of already-given objects, it approaches cognition as a process of filtering, stabilizing, and framing distinctions within an initially unresolved substrate of possible relations. In this view, \textbf{Existence} names a conceptual placeholder for structured yet pre-stabilized potential; \textbf{Being} names the ongoing movement through which such potential becomes organized into intelligible form. On this basis, the paper proposes \textbf{Name–Meaning–Frame (NMF)} as a minimal representational schema for describing how filters operate. To make this perspective operational, the paper introduces a computational instantiation in a large-scale knowledge substrate. The substrate, known as the Pete Semantic Field, comprises a Merkle-hashed Directed Acyclic Graph (DAG) of over 100,000 distinct semantic nodes and approximately 300,000 frame-dependent links synthesizing data across technical and philosophical domains. It serves as an existence proof of representational feasibility, demonstrating that context-sensitive, multi-domain knowledge can be organized in a way that preserves frame dependence and polysemy.
+\end{abstract}
+
+\section{Introduction}
+
+Contemporary AI systems are highly effective at compressing and retrieving large quantities of information, yet they often struggle with a basic epistemic problem: meaning is rarely context-free. The same sign may operate differently across domains. Despite this, dominant representational paradigms tend to compress distinctions into latent vectors, treating cross-domain ambiguity as noise.
+
+This paper proposes a different starting point. Instead of asking how a system can map already-given objects, it asks how distinctions become stabilized. To address this, the paper develops an AI-inspired vocabulary centered on four terms: \textbf{Existence}, \textbf{Being}, \textbf{Filter}, and \textbf{Fragment}. 
+
+The central proposal is the schema \textbf{Name–Meaning–Frame (NMF)}. If knowledge is context-sensitive, then any minimal unit of representation must account not only for what something is called and what it means, but also for the frame under which this coupling becomes valid.
+
+The paper has two aims: first, to offer a conceptual framework wherein knowledge is understood as the stabilization of distinctions under filters; second, to show that this framework can be computationally instantiated at scale using a massive multi-domain substrate tracking over 100,000 nodes.
+
+\subsection{Research Questions}
+1. Can knowledge be described as the stabilization of distinctions through filters rather than as the passive storage of already-given objects?
+2. Is Name–Meaning–Frame a sufficient minimal schema for representing context-sensitive knowledge without erasing polysemy?
+3. Can a large-scale computational substrate organized through NMF exhibit empirically observable fragment formation across domains?
+
+\section{Conceptual Framework}
+
+\subsection{Existence as Structured but Unresolved Potential}
+Existence does not refer to emptiness, nor to an individuated inventory of objects. It names a condition in which structure is possible and partially present, but not yet stabilized into determinate units under a particular cognitive regime. The computational substrate serves as an analogue of this idea: a large graph of nodes and relations before a specific local frame is selected.
+
+\subsection{Friction and the Genesis of Distinction}
+Distinctions arise through \textbf{friction}—the process by which repeated constraints and interactions force differentiations to become stable. Over time, recurrent distinctions sediment into recognizable structures, which may become institutionalized as vocabularies or conceptual systems. Language is one of the earliest institutionalizations of filtering.
+
+\subsection{Being as Becoming}
+\textbf{Being} should not be understood as a static condition, but as the ongoing stabilization of intelligible form within a wider unresolved field. Let $K$ denote those aspects of a configuration that become anchored under a filter, and $U$ denote unresolved aspects. Being is the temporary maintenance of $K$ within a field containing $U$.
+
+\section{From Distinction to Filter}
+
+\subsection{Defining the Filter}
+A filter is a structure that stabilizes distinctions by coupling a name to a meaning under a frame. To filter is to stabilize a discriminative relation sufficiently for it to enter use, memory, and further reasoning.
+
+\subsection{Collapse as Stabilization}
+\textbf{Collapse} denotes the temporary stabilization of one interpretable configuration against a wider unresolved background. Other possibilities remain latent or irrelevant under the present frame.
+
+\section{Name–Meaning–Frame as Minimal Structure}
+
+\subsection{Name, Meaning, and Frame}
+A \textbf{Name} is the handle under which a distinction is recalled. A \textbf{Meaning} is the content stabilized by a distinction. A \textbf{Frame} establishes the local regime of relevance within which a name-meaning pairing becomes valid.
+
+\subsection{Failure Cases Supporting Minimality}
+If any component of NMF is removed, representing context-sensitive knowledge fails:
+\begin{itemize}
+    \item \textbf{Same-name / different-frame defect:} The word \texttt{State} lacks clear meaning without a frame. Under a PyTorch framework, it represents variable weights; under Political Philosophy, it implies sovereign governance. A flat representation improperly averages them.
+    \item \textbf{Same-meaning / different-name defect:} The \texttt{sum()} function code and the word \texttt{Addition}. Without the shared hashed-meaning connection, a system treats them as wholly disconnected identities.
+    \item \textbf{Label-without-clear-frame defect:} The raw keyword \texttt{Node}. If ingested into a flat database, its identity collapses.
+\end{itemize}
+
+\section{Taxonomy of Filters}
+We propose five primitive modes of distinction-making: Binary, Gradient, Sequence, Relation, and Recursion. A domain is a relatively stable organization of such filters becoming normalized through technical or linguistic use.
+
+\section{Fragment and Domain Formation}
+A \textbf{fragment} is the relatively stable output of filtering. Domain conflict thus becomes a matter of competing filter structures. If the substrate organizes knowledge through frame-sensitive relations, we observe domain-like clusters emerge. For example, within the Pete substrate, PyTorch architectures and Hegelian Dialectics naturally segregate into distinct topological islands due to structural friction.
+
+\section{Polysemy and Frame Dependence}
+A frame-sensitive representation preserves multiple frame-specific couplings. Table \ref{tab:polysemy} highlights overlap across frames.
+
+\begin{table}[h]
+\centering
+\caption{Polysemic Differentiation under Contextual Frames}
+\label{tab:polysemy}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Name} & \textbf{Frame A} & \textbf{Meaning A} & \textbf{Frame B} & \textbf{Meaning B} \\ \midrule
+Node & Computer Science & vertex/computational unit & Philosophy & conceptual state \\
+Object & Programming & instance/variable & Epistemology & object of observation \\
+Def & Code execution & formal definition & Textual analysis & determinate articulation \\
+Class & Software Architecture & template instantiation & Sociology / Marx & socioeconomic strata \\
+Attention & Machine Learning & neural weighting & Cognitive Science & focal consciousness \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\section{Second-Order Awareness: NMF(NMF)}
+A second-order system can represent the fact that a relation holds under a frame. By noting NMF(NMF), the system models its own limits and realizes its reliance on frames. 
+
+\section{Computational Instantiation: The Pete Substrate}
+
+\subsection{Substrate Overview}
+The Pete Unconscious Substrate operates as an empirical demonstration tracking:
+\begin{itemize}
+    \item \textbf{Node Count:} $\sim$ 100,000 formalized semantic nodes.
+    \item \textbf{Edge Count:} $\sim$ 300,000 structural connections.
+    \item \textbf{Domains:} 7 primary domains (including Graph Theory, PyTorch NN Core, Kantian/Hegelian Philosophy, and Cryptography).
+\end{itemize}
+
+\subsection{Schema and Representation}
+The SQLite database stores entities in a \texttt{fractal\_nodes} table, rigorously enforcing explicit columns: \texttt{name\_nodes}, \texttt{mean\_nodes}, and \texttt{frame\_nodes}.
+
+\subsection{Ingestion and Parsing Pipeline}
+Raw sources (Python scripts, raw Markdown, academic texts) are ingested through Abstract Syntax Tree (AST) decomposition and linguistic chunking. Names are identified functionally, Meanings are assigned as recursive dependency arrays (linked by MD5 hashes), and Frames are instantiated by directory-level domain contexts.
+
+\subsection{Visualization and Segregation}
+Graph visualizers clearly show the transition from unresolved existence to a stabilized organism. Modularity scores reflect dense intra-frame purity within philosophical domains compared to minimal connective bridging to machine learning algorithms.
+
+\section{Conclusion}
+This paper establishes that knowledge is the stabilization of distinctions under filters. Name–Meaning–Frame offers a minimal scheme capable of navigating polysemy, while its computational instantiation across 100,000 nodes proves its technical viability in organizing context-sensitive reality. The question is no longer whether machines can represent knowledge, but whether our insistence on flat, contextless vector embeddings represents a fundamental misunderstanding of cognition itself.
+
+\end{document}

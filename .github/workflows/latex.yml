@@ -1,0 +1,26 @@
+name: Compile LaTeX Paper
+on:
+  push:
+    paths:
+      - 'paper/**'
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: paper/paper.tex
+          compiler: pdflatex
+          
+      - name: Commit and push PDF back to repository
+        run: |
+          mv paper.pdf paper/paper.pdf
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add paper/paper.pdf
+          git commit -m "docs(paper): auto-compile LaTeX to PDF [skip ci]" || echo "No changes to commit"
+          git push
